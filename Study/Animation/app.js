@@ -5,19 +5,25 @@ window.onload=function () {
     var vDiv=document.getElementById("divMenu");
 
     vDiv.onmouseover=function () {
-        StartMove(10,0);
+        StartMove(0);
     };
 
     vDiv.onmouseout=function () {
-        StartMove(-10,-200);
+        StartMove(-200);
     }
 }
 
 var timer=null;
-function StartMove(speed,temp) {
+function StartMove(temp) {
     clearInterval(timer);
     var vDiv=document.getElementById("divMenu");
         timer=setInterval(function () {
+            var speed=0;
+            if(vDiv.offsetLeft>temp){
+                speed=-10;
+            }else {
+                speed=10;
+            }
            if(vDiv.offsetLeft==temp){
                clearInterval(timer);
            }else {
