@@ -5,37 +5,26 @@ window.onload=function () {
     var vDiv=document.getElementById("divMenu");
 
     vDiv.onmouseover=function () {
-        StartMove();
+        StartMove(10,0);
     };
 
     vDiv.onmouseout=function () {
-        EndMove();
+        StartMove(-10,-200);
     }
 }
 
 var timer=null;
-function StartMove() {
+function StartMove(speed,temp) {
     clearInterval(timer);
     var vDiv=document.getElementById("divMenu");
         timer=setInterval(function () {
-           if(vDiv.offsetLeft==0){
+           if(vDiv.offsetLeft==temp){
                clearInterval(timer);
            }else {
-               vDiv.style.left=vDiv.offsetLeft+10+'px';
+               vDiv.style.left=vDiv.offsetLeft+speed+'px';
            }
         },30)
 
 }
-function EndMove() {
-    clearInterval(timer);
-    var vDiv=document.getElementById("divMenu");
-    timer=setInterval(function () {
-        if(vDiv.offsetLeft==-200){
-            clearInterval(timer);
-        }else {
-            vDiv.style.left=vDiv.offsetLeft-10+'px';
-        }
-    },30)
 
-}
 
