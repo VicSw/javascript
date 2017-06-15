@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c97457-1a00-4501-942c-b08fd234b1b6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -203,7 +202,7 @@
     <option name="totallyTimeSpent" value="6110000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="163" y="90" width="1280" height="709" extended-state="0" />
+    <frame x="163" y="90" width="1280" height="709" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24604431" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
