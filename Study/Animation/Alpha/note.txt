@@ -1,0 +1,14 @@
+filter属性：
+grayscale灰度
+sepia褐色（求专业指点翻译）
+saturate饱和度
+hue-rotate色相旋转
+invert反色
+opacity透明度
+brightness亮度
+contrast对比度
+blur模糊
+drop-shadow阴影
+
+所有浏览器都支持 opacity 属性。
+注释：IE8 以及更早的版本支持替代的 filter 属性。例如：filter:Alpha(opacity=50)。
