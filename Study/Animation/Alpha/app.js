@@ -4,11 +4,11 @@
 window.onload=function () {
     var vDiv=document.getElementById("alphaDiv");
     vDiv.onmouseover=function () {
-        StartMove(30);
+        StartMove(100);
     }
 
     vDiv.onmouseout=function () {
-        StartMove(100);
+        StartMove(30);
     }
 };
 
