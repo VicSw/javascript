@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="00c97457-1a00-4501-942c-b08fd234b1b6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Study/Animation/moresport/app.js" afterPath="$PROJECT_DIR$/Study/Animation/moresport/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Study/Animation/moresport/index.html" afterPath="$PROJECT_DIR$/Study/Animation/moresport/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +46,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Study/Animation/moresport/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="176">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
               </folding>
@@ -305,12 +303,12 @@
       <workItem from="1497924659484" duration="795000" />
       <workItem from="1498112338453" duration="8531000" />
       <workItem from="1498550641792" duration="1671000" />
-      <workItem from="1498614464804" duration="5439000" />
+      <workItem from="1498614464804" duration="5522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28241000" />
+    <option name="totallyTimeSpent" value="28324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
@@ -492,8 +490,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Study/Animation/moresport/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="176">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
