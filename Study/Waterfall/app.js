@@ -3,6 +3,37 @@
  */
 window.onload=function(){
     imgLocation("container","box");
+
+    //模拟json
+    var imgData={"data":[{"src":"2.jpg"},{"src":"3.jpg"},{"src":"4.jpg"},{"src":"5.jpg"},{"src":"6.jpg"}]};
+    window.onscroll=function () {
+        if(checkFlag()){
+            var cparent=document.getElementById("container");
+            for(var i=0;i<imgData.data.length;i++){
+                var ccontent=document.createElement("div");
+                ccontent.className="box";
+                cparent.appendChild(ccontent);
+                var boximg=document.createElement("div");
+                boximg.className="box_img";
+                ccontent.appendChild(boximg);
+                var img=document.createElement("img");
+                img.src="img/"+imgData.data[i].src;
+                boximg.appendChild(img);
+            }
+            imgLocation("container","box");
+        }
+    }
+}
+
+function checkFlag() {
+    var cparent=document.getElementById("container");
+    var ccontent=getChildElement(cparent,"box");
+    var lastContentHeight=ccontent[ccontent.length-1].offsetTop;
+    var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;//浏览器兼容问题
+    var pageHeight=document.documentElement.clientHeight||document.body.clientHeight;//浏览器兼容问题
+    if(lastContentHeight<scrollTop+pageHeight){
+        return true;
+    }
 }
 function imgLocation(parent,content){
 //将父级下所有的content全部取出
