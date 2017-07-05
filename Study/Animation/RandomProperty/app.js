@@ -25,7 +25,6 @@ window.onload=function(){
               }else {
                   StartMove(this,100);
               }
-
           }
       }
 }
@@ -33,9 +32,15 @@ window.onload=function(){
 function StartMove(obj,temp) {
     clearInterval(obj.timer);
     obj.timer=setInterval(function () {
-        var speed=(temp-parseInt(getStyle(obj,obj.styleType)))/10;
+        var icur=parseInt(getStyle(obj,obj.styleType));
+        var speed=(temp-icur)/10;
         speed=speed>0?Math.ceil(speed):Math.floor(speed);
-        obj.style[obj.styleType]=parseInt(getStyle(obj,obj.styleType))+speed+'px';
+        if(icur==temp){
+            clearInterval(obj.timer);
+        }else {
+            obj.style[obj.styleType]=icur+speed+'px';
+        }
+
     },30)
 }
 
